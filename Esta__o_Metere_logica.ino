@@ -2,7 +2,8 @@
 #include <LiquidCrystal_I2C.h>
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
-#include <Adafruit_BMP280.h> 
+#include <Adafruit_BMP280.h>
+#include <stdio.h>
 
 //Definindo constantes do código
 LiquidCrystal_I2C lcd(0x27, 16, 2);
